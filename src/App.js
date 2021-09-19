@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import NamaList from './components/NamaList';
+import ListNamaMobilList from './components/ListMobil';
 import Context from './components/Usecontext/Context'
 
 function App() {
   return (
-    <div className='nama-app'>
+    <div className='listNamaMobil-app'>
       <Context />
-      <NamaList />
+      <ListNamaMobilList />
     </div>
   );
 }

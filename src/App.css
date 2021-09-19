@@ -2,42 +2,43 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  body {
-    background: #fdfcfc;
-  }
-  .nama-app {
+    font-family: 'serif;', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Georgia, serif;
+}
+
+body {
+    background: #F0FF00;
+}
+
+.listNamaMobil-app {
     display: flex;
     flex-direction: column;
-    justify-content:right;
-    width: 1200px;
+    justify-content: right;
+    width: 1000px;
     min-height: 600px;
     background: #fcfbfb;
     text-align: left;
-    margin: 10px auto;
-    border-radius: 10px;
-    padding-bottom: 32px;
-  }
-  
-  h1 {
-    margin: 1px 0;
+    margin: 50px auto;
+    border-radius: 40px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    margin: 5px 0;
     color: rgb(12, 12, 12);
     font-size: 24px;
-  }
-  
-  .complete {
+    justify-content: center;
+}
+
+.complete {
     text-decoration: line-through;
     opacity: 0.4;
-  }
-  
-  .nama-form {
+}
+
+.listNamaMobil-form {
     margin-bottom: 5px;
-  }
-  
-  .nama-input {
+}
+
+.listNamaMobil-input {
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
     border: 2px solid #f7a8a8;
@@ -45,13 +46,13 @@
     width: 320px;
     background: transparent;
     color: rgb(7, 7, 7);
-  }
-  
-  .nama-input::placeholder {
+}
+
+.listNamaMobil-input::placeholder {
     color: #050505;
-  }
-  
-  .nama-button {
+}
+
+.listNamaMobil-button {
     padding: 16px;
     border: none;
     border-radius: 0 4px 4px 0;
@@ -60,56 +61,55 @@
     background: #f7a8a8;
     color: #0d0d0e;
     text-transform: capitalize;
-  }
-  
-  .nama-input.edit {
+}
+
+.listNamaMobil-input.edit {
     border: 2px solid #0d0d0e;
-  }
-  
-  .nama-button.edit {
+}
+
+.listNamaMobil-button.edit {
     background: #0d0d0e;
     padding: 16px 22px;
-  }
-  
-  .nama-container {
+}
+
+.listNamaMobil-container {
     display: flex;
     flex-direction: row;
     position: relative;
-  }
-  
-  .nama-row {
+}
+
+.listNamaMobil-row {
     display: flex;
     justify-content: space-between;
     align-items: left;
     margin: 1px auto;
     color: rgb(8, 8, 8);
     background: #f7a8a8;
-
     padding: 10px;
     border-radius: 1px;
     width: 100%;
-  }
-  
-  .icons {
+}
+
+.icons {
     display: flex;
     align-items: left;
     font-size: 24px;
     cursor: pointer;
-  }
-  
-  .delete-icon {
+}
+
+.delete-icon {
     margin-right: 5px;
     color: rgb(5, 5, 5);
-  }
-  
-  .edit-icon {
+}
+
+.edit-icon {
     color: rgb(5, 5, 5);
-  }
-  .nama {
+}
+
+.listNamaMobil {
     width: 95%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     font-size: 30px;
-  }
-  
+}

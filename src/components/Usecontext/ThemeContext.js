@@ -18,11 +18,11 @@ export function ThemeProvider({ children }) {
         setDarkTheme(prevDarkTheme => !prevDarkTheme)
     }
 
-    return (
-        <ThemeContext.Provider value={darkTheme}>
-            <ThemeUpdateContext.Provider value={toggleTheme}>
-            {children}
-            </ThemeUpdateContext.Provider>
-        </ThemeContext.Provider>
+    return ( <
+        ThemeContext.Provider value = { darkTheme } >
+        <
+        ThemeUpdateContext.Provider value = { toggleTheme } > { children } <
+        /ThemeUpdateContext.Provider> <
+        /ThemeContext.Provider>
     )
 }
