@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    background: #fdfcfc;
+  }
+  .nama-app {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    width: 1200px;
+    min-height: 600px;
+    background: #fcfbfb;
+    text-align: left;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+  }
+  
+  h1 {
+    margin: 1px 0;
+    color: rgb(12, 12, 12);
+    font-size: 24px;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .nama-form {
+    margin-bottom: 5px;
+  }
+  
+  .nama-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #f7a8a8;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: rgb(7, 7, 7);
+  }
+  
+  .nama-input::placeholder {
+    color: #050505;
+  }
+  
+  .nama-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #f7a8a8;
+    color: #0d0d0e;
+    text-transform: capitalize;
+  }
+  
+  .nama-input.edit {
+    border: 2px solid #0d0d0e;
+  }
+  
+  .nama-button.edit {
+    background: #0d0d0e;
+    padding: 16px 22px;
+  }
+  
+  .nama-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .nama-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 1px auto;
+    color: rgb(8, 8, 8);
+    background: #f7a8a8;
+
+    padding: 10px;
+    border-radius: 1px;
+    width: 100%;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: left;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: rgb(5, 5, 5);
+  }
+  
+  .edit-icon {
+    color: rgb(5, 5, 5);
+  }
+  .nama {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 30px;
+  }
+  
